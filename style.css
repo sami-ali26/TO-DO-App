@@ -1,0 +1,117 @@
+* {
+  list-style: none;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1a1919;
+}
+
+.complete {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+#parent {
+  background-color: white;
+  border-radius: 0.3rem;
+  padding: 1rem;
+}
+
+#title {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(21, 21, 86);
+}
+
+.task_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid brown;
+  padding: 0.5rem;
+  border-radius: 20px;
+}
+
+#inputbox {
+  background-color: rgb(221, 221, 221);
+  outline: none;
+  padding: 0.8rem;
+  color: rgb(36, 35, 35);
+  border: none;
+  border-radius: 25px;
+  font-weight: 700;
+}
+
+#addbutton {
+  background-color: rgb(97, 55, 249);
+  border-radius: 25px;
+  padding: 0.8rem 1.4rem;
+  border: none;
+  color: white;
+  font-weight: 700;
+}
+
+#addbutton:hover {
+  background-color: rgb(66, 15, 251);
+  cursor: pointer;
+}
+
+#todo_list {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  /* background-color: #e5e5e5; */
+  gap: 0.2rem;
+  padding: 0.2rem;
+}
+
+.delete:hover {
+  background-color: rgb(254, 20, 20);
+}
+
+.delete {
+  border: none;
+  background-color: rgb(244, 54, 54);
+  padding: 0.5rem 0.8rem;
+  border-radius: 25px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.3rem 0.5rem;
+  margin: 0.1rem;
+  background-color: rgb(32, 31, 31);
+  color: whitesmoke;
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 0.4rem;
+  cursor: grab;
+}
+
+#delete {
+  border: none;
+  background-color: #51c644;
+  width: max-content;
+  padding: 0.8rem 1.5rem;
+  border-radius: 25px;
+  color: black;
+  font-weight: 700;
+}
+
+#delete:hover {
+  background-color: #ff7b00;
+}
+
+.delete_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
