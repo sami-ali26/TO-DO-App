@@ -105,11 +105,9 @@ li {
   color: black;
   font-weight: 700;
 }
-
 #delete:hover {
   background-color: #ff7b00;
 }
-
 .delete_box {
   display: flex;
   justify-content: center;
